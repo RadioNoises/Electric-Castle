@@ -10,8 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2013805842726881351}
   - component: {fileID: 7169758875574958363}
+  - component: {fileID: 5912323653913971163}
   m_Layer: 0
-  m_Name: blockMoving
+  m_Name: baseFloor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45,6 +46,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.25136, z: 1}
   m_Center: {x: 0, y: 0.12100217, z: 0}
+--- !u!114 &5912323653913971163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1205180270423560957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1eddc87ad106d842b2c38204a6d8d8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1775877650649348064
 GameObject:
   m_ObjectHideFlags: 0
